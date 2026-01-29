@@ -1,0 +1,76 @@
+---
+
+## **2️⃣ index.html**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palmy Web Developer 🌴💻</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="logo/github-icon.png" alt="Palmy Web Developer Logo" class="logo">
+    <h1>Palmy Web Developer 🌴💻</h1>
+    <p>Modern, responsive, and high-performance websites</p>
+  </header>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#vision">Vision</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#why-choose">Why Choose Us</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Palmy Web Developer is a front-end web development business focused on creating clean, responsive, and user-friendly websites using HTML, CSS, and JavaScript. We help individuals, startups, and businesses build a strong online presence.</p>
+  </section>
+
+  <section id="mission">
+    <h2>Mission</h2>
+    <p>Our mission is to deliver high-quality websites with clean code, modern design, and excellent user experience that help businesses grow online.</p>
+  </section>
+
+  <section id="vision">
+    <h2>Vision</h2>
+    <p>Our vision is to become a trusted web development brand recognized for simplicity, performance, and modern front-end solutions worldwide.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="cards">
+      <div class="card">Website Development with HTML, CSS & JavaScript</div>
+      <div class="card">Responsive & Mobile-First Design</div>
+      <div class="card">UI / UX Design</div>
+      <div class="card">Performance & Speed Optimization</div>
+      <div class="card">Interactive JavaScript Features</div>
+      <div class="card">Website Maintenance & Updates</div>
+    </div>
+  </section>
+
+  <section id="why-choose">
+    <h2>Why Choose Us</h2>
+    <div class="cards">
+      <div class="card">Clean and readable HTML structure</div>
+      <div class="card">Well-organized and modern CSS styling</div>
+      <div class="card">Lightweight and efficient JavaScript</div>
+      <div class="card">Fully responsive on all devices</div>
+      <div class="card">Fast loading and optimized performance</div>
+      <div class="card">Professional and scalable development approach</div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Palmy Web Developer 🌴💻 | Built with HTML, CSS & JS
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
